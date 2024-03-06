@@ -1,2 +1,3 @@
 # leetcode
-leetcode solution
+
+力扣题解记录
