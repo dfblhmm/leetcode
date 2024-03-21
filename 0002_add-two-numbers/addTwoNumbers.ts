@@ -3,7 +3,7 @@
  * @link https://leetcode.cn/problems/add-two-numbers/description
  */
 
-class ListNode {
+export class ListNode {
   val: number;
   next: ListNode | null;
   constructor(val?: number, next?: ListNode | null) {
@@ -21,7 +21,7 @@ class ListNode {
  *  2.3.以【sum % 10】作为相加后节点的值
  *  2.4.以【sum / 10】记录当前位求和是否产生了进位【carry】
  */
-function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+export function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   let accessor1 = l1;
   let accessor2 = l2;
 
